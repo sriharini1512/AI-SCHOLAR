@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ScholarAI | Find Your Scholarship</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--c:#7aa7ff;--m:#b49cff;--v:#8a8fb8;--bg:#0b0f1a;--card:rgba(20,26,44,.88)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:#d5dbef;font-family:Inter,Arial,sans-serif;min-height:100vh;overflow-x:hidden}
+#bg{position:fixed;inset:0;z-index:0;opacity:.55}
+.wrap{position:relative;z-index:1;max-width:1050px;margin:auto;padding:28px 18px 60px}
+h1,h2,.logo{font-family:Orbitron,Arial,sans-serif}
+.logo{font-size:18px;letter-spacing:3px;color:var(--c)}
+.hero{text-align:center;padding:50px 0 30px}
+.hero h1{font-size:clamp(28px,5.5vw,50px);line-height:1.15;color:#eef2ff;font-weight:600}
+.hero p{margin-top:14px;color:#8d98bd;font-size:16px}
+.tag{display:inline-block;margin-top:18px;padding:6px 16px;border:1px solid rgba(122,167,255,.4);border-radius:30px;font-size:12px;letter-spacing:1px;color:var(--c)}
+.panel{background:var(--card);border:1px solid rgba(122,167,255,.18);border-radius:18px;padding:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+label{display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#8d98bd;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(138,143,184,.3);background:rgba(10,14,28,.9);color:#eef2ff;font:inherit;outline:none;transition:border-color .2s}
+input:focus,select:focus,textarea:focus{border-color:var(--c)}
+.full{grid-column:1/-1}
+.chk{display:flex;align-items:center;gap:10px;margin-top:26px}.chk input{width:20px;height:20px}.chk label{margin:0;text-transform:none;font-size:14px}
+button{margin-top:24px;width:100%;padding:15px;border:0;border-radius:12px;font:600 14px Orbitron,Arial;letter-spacing:2px;color:#0b0f1a;cursor:pointer;background:linear-gradient(90deg,#7aa7ff,#b49cff);transition:opacity .2s}
+button:hover{opacity:.88}
+#scan{display:none;text-align:center;padding:50px 0}
+.ring{width:56px;height:56px;margin:auto;border-radius:50%;border:3px solid rgba(122,167,255,.2);border-top-color:var(--c);animation:spin 1.2s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#stat{margin-top:18px;font-family:Orbitron;color:var(--c);font-size:12px;letter-spacing:2px}
+#res{margin-top:34px}#res h2{margin-bottom:18px;color:#aebbe6;letter-spacing:2px;font-size:17px;font-weight:600}
+.card{display:flex;gap:22px;align-items:center;margin-bottom:16px;opacity:0;animation:in .5s forwards;transition:border-color .2s}
+.card:hover{border-color:rgba(180,156,255,.5)}
+@keyframes in{from{transform:translateY(12px)}to{opacity:1;transform:none}}
+.meter{--p:0;flex:none;width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--c) calc(var(--p)*1%),rgba(255,255,255,.08) 0);position:relative}
+.meter:before{content:"";position:absolute;inset:8px;border-radius:50%;background:#101627}
+.meter b{position:relative;font:600 20px Orbitron}
+.info{flex:1}.info h3{font-size:18px;margin-bottom:4px;color:#eef2ff}.prov{color:#8d98bd;font-size:13px}
+.chips{margin:10px 0;display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:12px;padding:4px 11px;border-radius:20px;background:rgba(122,167,255,.08);border:1px solid rgba(122,167,255,.25)}
+.chip.m{background:rgba(180,156,255,.08);border-color:rgba(180,156,255,.3)}
+.why{font-size:13px;color:#a3aed3;line-height:1.7}.why li{list-style:none}.why li:before{content:"\203A  ";color:var(--c)}
+.rank{font:600 12px Orbitron;color:var(--m);margin-bottom:4px}
+.empty{text-align:center;padding:30px;color:#e9a3bd}
+footer{text-align:center;margin-top:40px;color:#566086;font-size:12px}
+@media(max-width:620px){.card{flex-direction:column;text-align:center}}
+</style></head><body>
+<canvas id="bg"></canvas>
+<div class="wrap">
+ <div class="logo">&#9672; SCHOLAR.AI</div>
+ <div class="hero"><h1>Your Next Scholarship,<br>Found by AI</h1>
+ <p>Enter your profile. Our hybrid engine matches rules, ML prediction and NLP in seconds.</p>
+ <span class="tag">RULES + MACHINE LEARNING + NLP</span></div>
+
+ <div class="panel" id="formPanel"><div class="grid">
+  <div><label>Marks (%)</label><input id="marks" type="number" min="0" max="100" step="0.1" placeholder="e.g. 82.5"></div>
+  <div><label>Family income / year (Rs)</label><input id="income" type="number" min="0" placeholder="e.g. 250000"></div>
+  <div><label>Category</label><select id="category"><option>OC</option><option>BC</option><option>MBC</option><option>SC</option><option>ST</option></select></div>
+  <div><label>Gender</label><select id="gender"><option>Male</option><option>Female</option></select></div>
+  <div><label>Course level</label><select id="course"><option>UG</option><option>PG</option><option>Diploma</option></select></div>
+  <div><label>State</label><select id="state"><option>Tamil Nadu</option><option>Kerala</option><option>Karnataka</option></select></div>
+  <div class="chk"><input id="minority" type="checkbox"><label for="minority">I belong to a minority community</label></div>
+  <div class="full"><label>Interests / background (optional)</label><textarea id="interests" rows="2" placeholder="e.g. engineering, girl student, first graduate, technology"></textarea></div>
+ </div>
+ <button id="go">&#9889; FIND MY SCHOLARSHIPS</button></div>
+
+ <div id="scan"><div class="ring"></div><div id="stat">INITIALISING...</div></div>
+ <div id="res"></div>
+ <footer>ScholarAI &middot; AI-Based Scholarship Recommendation System &middot; Mini Project</footer>
+</div>
+<script>
+// animated neon network background
+const cv=document.getElementById('bg'),cx=cv.getContext('2d');let W,H,pts=[];
+function size(){W=cv.width=innerWidth;H=cv.height=innerHeight;pts=Array.from({length:Math.min(55,W/22)},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25}))}
+size();addEventListener('resize',size);
+(function draw(){cx.clearRect(0,0,W,H);
+ pts.forEach((p,i)=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+  cx.fillStyle='#7aa7ff';cx.globalAlpha=.35;cx.fillRect(p.x,p.y,2,2);
+  for(let j=i+1;j<pts.length;j++){const q=pts[j],d=Math.hypot(p.x-q.x,p.y-q.y);
+   if(d<130){cx.globalAlpha=(1-d/130)*.12;cx.strokeStyle='#7aa7ff';cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}});
+ requestAnimationFrame(draw)})();
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const steps=['READING YOUR PROFILE...','APPLYING ELIGIBILITY RULES...','PREDICTING SELECTION CHANCE...','MATCHING SCHOLARSHIP TEXT (NLP)...','RANKING BEST MATCHES...'];
+function sleep(ms){return new Promise(r=>setTimeout(r,ms))}
+
+$('go').onclick=async()=>{
+ const body={marks:$('marks').value,income:$('income').value,category:$('category').value,gender:$('gender').value,
+  course:$('course').value,state:$('state').value,minority:$('minority').checked?1:0,interests:$('interests').value};
+ if(!body.marks||!body.income){alert('Please enter marks and family income');return}
+ $('res').innerHTML='';$('scan').style.display='block';
+ const req=fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(r=>r.json());
+ for(const s of steps){$('stat').textContent=s;await sleep(450)}
+ const data=await req;$('scan').style.display='none';render(data);
+ $('res').scrollIntoView({behavior:'smooth'});
+};
+
+function render(d){
+ if(d.error){$('res').innerHTML='<div class="panel empty">'+esc(d.error)+'</div>';return}
+ if(!d.results.length){$('res').innerHTML='<div class="panel empty">No eligible scholarships found for this profile right now. Try changing your details.</div>';return}
+ $('res').innerHTML='<h2>&#9670; TOP '+d.results.length+' MATCHES FOR YOU</h2>'+d.results.map((r,i)=>`
+ <div class="panel card" style="animation-delay:${i*.18}s">
+  <div class="meter" data-p="${r.score}"><b>0%</b></div>
+  <div class="info"><div class="rank">#${i+1} MATCH</div>
+   <h3>${esc(r.name)}</h3><div class="prov">${esc(r.provider)}</div>
+   <div class="chips"><span class="chip">&#8377; ${r.amount.toLocaleString('en-IN')}</span>
+    <span class="chip m">&#9201; ${r.days_left} days left (${esc(r.deadline)})</span>
+    <span class="chip">AI selection chance ${r.ml}%</span></div>
+   <ul class="why">${r.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul></div></div>`).join('');
+ document.querySelectorAll('.meter').forEach(m=>{const t=+m.dataset.p;let v=0;
+  const id=setInterval(()=>{v=Math.min(t,v+2);m.style.setProperty('--p',v);m.firstChild.textContent=v+'%';if(v>=t)clearInterval(id)},18)});
+}
+</script></body></html>

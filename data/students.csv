@@ -1,0 +1,1001 @@
+student_id,marks,income,category,gender,course,state,minority
+1,73.7,286000,OC,Male,UG,Tamil Nadu,0
+2,57.5,191000,BC,Female,UG,Karnataka,1
+3,79.0,231000,BC,Male,Diploma,Tamil Nadu,0
+4,81.3,434000,OC,Male,UG,Kerala,0
+5,46.6,297000,BC,Male,PG,Tamil Nadu,0
+6,54.4,364000,ST,Female,PG,Tamil Nadu,0
+7,71.5,443000,OC,Female,UG,Tamil Nadu,0
+8,66.2,237000,BC,Female,UG,Tamil Nadu,0
+9,69.8,467000,SC,Female,UG,Tamil Nadu,0
+10,59.8,372000,BC,Male,UG,Tamil Nadu,0
+11,80.6,141000,BC,Male,PG,Kerala,1
+12,79.3,705000,ST,Female,UG,Kerala,0
+13,70.8,220000,BC,Male,Diploma,Kerala,0
+14,83.5,110000,OC,Male,UG,Tamil Nadu,0
+15,75.6,158000,OC,Female,UG,Kerala,0
+16,59.7,161000,ST,Female,PG,Karnataka,1
+17,74.4,306000,BC,Male,UG,Tamil Nadu,0
+18,58.5,252000,BC,Female,Diploma,Tamil Nadu,0
+19,80.5,242000,OC,Female,UG,Kerala,0
+20,69.4,430000,BC,Female,Diploma,Tamil Nadu,1
+21,67.8,364000,ST,Female,PG,Tamil Nadu,0
+22,61.8,358000,BC,Male,PG,Kerala,0
+23,84.7,379000,ST,Male,UG,Tamil Nadu,0
+24,68.1,429000,BC,Female,PG,Tamil Nadu,0
+25,64.9,84000,BC,Male,UG,Tamil Nadu,1
+26,65.8,238000,SC,Male,PG,Tamil Nadu,0
+27,76.4,80000,BC,Female,UG,Karnataka,0
+28,74.4,303000,BC,Male,UG,Tamil Nadu,0
+29,75.0,296000,SC,Female,UG,Tamil Nadu,1
+30,75.2,555000,BC,Male,UG,Kerala,0
+31,95.7,605000,BC,Male,UG,Tamil Nadu,0
+32,65.1,335000,ST,Female,PG,Kerala,1
+33,63.9,220000,OC,Female,UG,Tamil Nadu,0
+34,60.2,397000,BC,Male,PG,Tamil Nadu,1
+35,77.4,216000,OC,Male,UG,Tamil Nadu,0
+36,83.5,296000,BC,Male,PG,Tamil Nadu,0
+37,68.6,536000,BC,Male,PG,Kerala,0
+38,59.9,212000,MBC,Female,UG,Kerala,0
+39,60.1,481000,OC,Male,PG,Karnataka,0
+40,77.8,445000,MBC,Male,Diploma,Tamil Nadu,0
+41,78.9,167000,BC,Male,PG,Kerala,1
+42,76.5,532000,BC,Male,UG,Tamil Nadu,0
+43,62.0,451000,BC,Female,UG,Karnataka,0
+44,72.8,315000,MBC,Male,PG,Tamil Nadu,0
+45,71.4,188000,BC,Female,UG,Karnataka,0
+46,72.6,177000,BC,Male,PG,Tamil Nadu,0
+47,80.5,215000,SC,Male,UG,Tamil Nadu,0
+48,72.7,411000,MBC,Female,PG,Kerala,0
+49,78.1,167000,BC,Male,UG,Tamil Nadu,0
+50,70.8,386000,SC,Male,UG,Tamil Nadu,0
+51,73.5,141000,BC,Male,Diploma,Karnataka,0
+52,77.6,262000,OC,Male,PG,Tamil Nadu,1
+53,52.5,317000,BC,Female,PG,Tamil Nadu,0
+54,66.2,1286000,OC,Female,Diploma,Tamil Nadu,0
+55,64.4,130000,BC,Male,UG,Tamil Nadu,0
+56,62.3,717000,MBC,Female,UG,Tamil Nadu,0
+57,66.7,324000,OC,Female,UG,Karnataka,0
+58,87.9,380000,SC,Female,UG,Karnataka,1
+59,59.6,318000,ST,Male,UG,Tamil Nadu,1
+60,81.6,387000,MBC,Female,Diploma,Tamil Nadu,0
+61,49.8,270000,MBC,Male,UG,Tamil Nadu,0
+62,66.0,710000,MBC,Female,UG,Karnataka,0
+63,72.0,226000,ST,Female,UG,Tamil Nadu,0
+64,77.0,585000,BC,Male,UG,Tamil Nadu,0
+65,78.5,201000,OC,Male,UG,Karnataka,0
+66,79.5,286000,BC,Female,UG,Karnataka,0
+67,65.8,156000,BC,Male,UG,Tamil Nadu,0
+68,64.5,390000,OC,Female,UG,Tamil Nadu,0
+69,80.3,706000,MBC,Female,PG,Tamil Nadu,0
+70,67.7,283000,OC,Male,UG,Tamil Nadu,0
+71,54.7,264000,SC,Male,UG,Tamil Nadu,0
+72,56.4,152000,BC,Male,UG,Tamil Nadu,0
+73,59.0,258000,OC,Male,UG,Tamil Nadu,0
+74,76.0,114000,OC,Male,UG,Tamil Nadu,0
+75,71.7,171000,BC,Male,Diploma,Tamil Nadu,0
+76,78.3,340000,BC,Female,UG,Tamil Nadu,0
+77,64.9,654000,OC,Male,UG,Karnataka,0
+78,71.9,1600000,BC,Female,UG,Tamil Nadu,0
+79,77.5,209000,OC,Female,PG,Karnataka,0
+80,66.3,702000,BC,Female,UG,Tamil Nadu,0
+81,75.5,343000,BC,Female,UG,Tamil Nadu,0
+82,62.1,271000,BC,Male,PG,Kerala,0
+83,65.6,384000,BC,Female,UG,Tamil Nadu,0
+84,65.4,308000,OC,Male,UG,Tamil Nadu,0
+85,55.6,317000,OC,Male,UG,Tamil Nadu,0
+86,75.8,232000,BC,Male,UG,Tamil Nadu,0
+87,64.4,128000,SC,Female,Diploma,Tamil Nadu,0
+88,70.1,117000,ST,Female,UG,Tamil Nadu,0
+89,75.8,439000,SC,Female,UG,Tamil Nadu,0
+90,75.4,251000,BC,Female,UG,Tamil Nadu,0
+91,78.0,207000,BC,Male,UG,Tamil Nadu,0
+92,68.8,298000,BC,Female,PG,Tamil Nadu,0
+93,64.9,478000,SC,Male,UG,Tamil Nadu,0
+94,69.0,330000,SC,Female,PG,Tamil Nadu,0
+95,49.8,200000,SC,Male,UG,Tamil Nadu,0
+96,52.6,619000,SC,Female,UG,Tamil Nadu,0
+97,54.1,765000,BC,Male,UG,Tamil Nadu,0
+98,58.0,399000,SC,Female,PG,Tamil Nadu,0
+99,74.8,532000,SC,Male,UG,Tamil Nadu,0
+100,59.1,625000,BC,Male,UG,Tamil Nadu,0
+101,65.5,584000,SC,Female,PG,Karnataka,0
+102,85.6,429000,OC,Male,UG,Karnataka,0
+103,65.7,425000,ST,Male,UG,Tamil Nadu,0
+104,78.9,405000,SC,Male,UG,Tamil Nadu,0
+105,58.8,154000,OC,Male,PG,Tamil Nadu,0
+106,67.5,452000,MBC,Male,UG,Kerala,1
+107,58.6,131000,OC,Female,UG,Kerala,0
+108,65.9,184000,SC,Male,UG,Tamil Nadu,0
+109,80.1,648000,SC,Male,UG,Tamil Nadu,0
+110,49.3,491000,MBC,Male,UG,Tamil Nadu,0
+111,75.2,724000,SC,Female,UG,Karnataka,0
+112,72.9,252000,OC,Female,UG,Karnataka,1
+113,62.9,149000,BC,Male,UG,Tamil Nadu,0
+114,52.6,257000,BC,Male,PG,Tamil Nadu,0
+115,70.9,315000,OC,Male,UG,Tamil Nadu,0
+116,63.6,311000,BC,Female,UG,Tamil Nadu,0
+117,72.8,585000,BC,Female,Diploma,Karnataka,0
+118,70.3,239000,BC,Female,PG,Tamil Nadu,0
+119,89.2,366000,BC,Male,UG,Tamil Nadu,0
+120,67.1,164000,SC,Female,UG,Tamil Nadu,0
+121,57.7,389000,BC,Male,UG,Tamil Nadu,0
+122,72.2,297000,SC,Female,UG,Kerala,0
+123,72.6,189000,BC,Female,UG,Tamil Nadu,1
+124,86.3,257000,BC,Male,UG,Karnataka,0
+125,80.0,266000,BC,Female,UG,Tamil Nadu,0
+126,74.3,252000,BC,Female,UG,Tamil Nadu,0
+127,87.6,858000,BC,Male,UG,Tamil Nadu,1
+128,55.7,280000,BC,Male,UG,Tamil Nadu,0
+129,62.3,256000,OC,Male,UG,Tamil Nadu,0
+130,58.9,84000,BC,Female,PG,Tamil Nadu,0
+131,65.3,173000,MBC,Male,PG,Tamil Nadu,1
+132,53.5,253000,BC,Male,UG,Tamil Nadu,0
+133,77.6,197000,SC,Female,UG,Tamil Nadu,0
+134,67.3,679000,BC,Male,UG,Tamil Nadu,0
+135,52.4,269000,ST,Male,UG,Karnataka,0
+136,57.8,642000,SC,Female,PG,Karnataka,1
+137,73.8,308000,ST,Female,UG,Tamil Nadu,0
+138,80.1,303000,SC,Female,UG,Kerala,0
+139,94.0,281000,OC,Male,UG,Kerala,0
+140,99.0,297000,BC,Male,UG,Karnataka,0
+141,75.0,832000,OC,Male,UG,Tamil Nadu,0
+142,58.1,74000,SC,Female,UG,Tamil Nadu,0
+143,44.4,89000,MBC,Male,Diploma,Tamil Nadu,0
+144,73.2,214000,BC,Male,UG,Karnataka,0
+145,60.2,299000,SC,Female,UG,Kerala,1
+146,65.0,449000,OC,Female,UG,Tamil Nadu,0
+147,62.7,394000,MBC,Female,UG,Tamil Nadu,0
+148,68.3,235000,MBC,Male,UG,Kerala,0
+149,82.8,547000,OC,Female,UG,Karnataka,1
+150,71.9,550000,MBC,Male,PG,Tamil Nadu,0
+151,68.1,331000,SC,Female,UG,Tamil Nadu,0
+152,57.6,528000,OC,Male,UG,Tamil Nadu,0
+153,49.9,349000,BC,Female,UG,Tamil Nadu,1
+154,64.2,212000,BC,Male,UG,Tamil Nadu,1
+155,69.4,451000,MBC,Female,UG,Kerala,0
+156,91.2,317000,OC,Male,PG,Karnataka,0
+157,71.6,297000,ST,Female,UG,Tamil Nadu,0
+158,81.8,718000,SC,Male,UG,Tamil Nadu,0
+159,64.0,68000,OC,Male,UG,Tamil Nadu,0
+160,55.8,127000,BC,Male,UG,Tamil Nadu,0
+161,58.4,145000,MBC,Female,UG,Tamil Nadu,0
+162,61.3,238000,MBC,Male,UG,Tamil Nadu,1
+163,95.5,255000,BC,Male,UG,Tamil Nadu,0
+164,60.1,120000,OC,Female,UG,Tamil Nadu,0
+165,80.1,164000,OC,Male,PG,Tamil Nadu,0
+166,59.2,177000,ST,Male,PG,Kerala,0
+167,81.2,1296000,BC,Female,PG,Tamil Nadu,0
+168,74.6,874000,SC,Female,Diploma,Tamil Nadu,1
+169,68.1,232000,BC,Female,PG,Karnataka,0
+170,69.5,238000,SC,Female,PG,Tamil Nadu,0
+171,62.1,149000,OC,Male,PG,Tamil Nadu,0
+172,75.4,94000,OC,Male,PG,Tamil Nadu,0
+173,64.5,276000,SC,Male,PG,Tamil Nadu,1
+174,55.3,163000,ST,Female,Diploma,Tamil Nadu,0
+175,54.7,282000,BC,Female,UG,Tamil Nadu,0
+176,72.1,114000,BC,Male,UG,Tamil Nadu,0
+177,88.9,188000,BC,Female,UG,Tamil Nadu,0
+178,71.9,324000,BC,Male,PG,Tamil Nadu,0
+179,68.6,369000,OC,Male,UG,Tamil Nadu,1
+180,73.4,381000,SC,Female,PG,Tamil Nadu,0
+181,85.7,134000,BC,Female,PG,Tamil Nadu,1
+182,72.6,495000,MBC,Female,Diploma,Kerala,0
+183,65.1,183000,OC,Female,UG,Tamil Nadu,0
+184,83.3,434000,OC,Female,PG,Tamil Nadu,1
+185,75.1,295000,MBC,Female,PG,Tamil Nadu,0
+186,88.4,130000,BC,Male,Diploma,Tamil Nadu,0
+187,72.2,245000,MBC,Male,Diploma,Karnataka,1
+188,55.3,369000,OC,Female,UG,Tamil Nadu,0
+189,53.6,428000,ST,Male,UG,Tamil Nadu,1
+190,89.8,273000,MBC,Male,UG,Karnataka,0
+191,90.7,743000,SC,Male,Diploma,Kerala,1
+192,67.8,543000,OC,Male,UG,Tamil Nadu,0
+193,65.4,254000,BC,Female,PG,Tamil Nadu,0
+194,87.5,465000,BC,Male,PG,Tamil Nadu,1
+195,56.7,946000,BC,Male,UG,Tamil Nadu,0
+196,59.3,962000,BC,Female,UG,Tamil Nadu,0
+197,77.7,142000,OC,Male,UG,Tamil Nadu,0
+198,65.3,170000,BC,Male,PG,Kerala,0
+199,69.9,723000,BC,Male,UG,Tamil Nadu,1
+200,68.0,157000,BC,Female,UG,Tamil Nadu,0
+201,74.1,134000,OC,Male,PG,Tamil Nadu,0
+202,86.9,222000,BC,Female,UG,Tamil Nadu,0
+203,71.1,382000,MBC,Male,PG,Tamil Nadu,1
+204,77.7,279000,BC,Female,UG,Karnataka,1
+205,45.4,201000,BC,Male,UG,Tamil Nadu,1
+206,69.4,198000,BC,Female,UG,Tamil Nadu,0
+207,59.9,193000,SC,Male,UG,Tamil Nadu,0
+208,55.4,175000,BC,Female,UG,Tamil Nadu,0
+209,59.5,1166000,MBC,Male,PG,Tamil Nadu,0
+210,66.0,355000,ST,Male,UG,Karnataka,0
+211,81.0,505000,BC,Male,UG,Tamil Nadu,0
+212,54.1,221000,SC,Male,UG,Tamil Nadu,0
+213,70.4,265000,SC,Male,UG,Karnataka,0
+214,64.2,193000,OC,Female,Diploma,Tamil Nadu,0
+215,66.1,60000,BC,Male,UG,Karnataka,0
+216,82.0,130000,MBC,Male,Diploma,Tamil Nadu,0
+217,76.5,100000,ST,Female,UG,Tamil Nadu,1
+218,86.0,77000,BC,Male,UG,Karnataka,0
+219,68.1,145000,OC,Male,UG,Tamil Nadu,1
+220,61.6,657000,MBC,Male,UG,Tamil Nadu,0
+221,67.3,289000,OC,Male,PG,Tamil Nadu,0
+222,72.9,643000,SC,Male,UG,Tamil Nadu,0
+223,72.1,379000,BC,Male,UG,Tamil Nadu,0
+224,57.0,474000,MBC,Male,UG,Tamil Nadu,0
+225,71.1,173000,SC,Female,UG,Kerala,0
+226,72.7,406000,MBC,Male,Diploma,Tamil Nadu,0
+227,99.0,459000,MBC,Female,Diploma,Tamil Nadu,1
+228,92.5,210000,SC,Female,UG,Tamil Nadu,0
+229,59.8,415000,SC,Male,PG,Tamil Nadu,0
+230,66.6,417000,SC,Male,PG,Tamil Nadu,0
+231,52.4,213000,OC,Female,UG,Tamil Nadu,0
+232,62.9,151000,MBC,Female,PG,Tamil Nadu,0
+233,73.8,146000,BC,Male,UG,Tamil Nadu,0
+234,84.5,312000,SC,Female,PG,Tamil Nadu,0
+235,61.3,361000,MBC,Female,Diploma,Tamil Nadu,0
+236,62.2,184000,BC,Male,UG,Tamil Nadu,1
+237,44.2,301000,OC,Male,PG,Karnataka,1
+238,68.0,418000,BC,Female,Diploma,Karnataka,0
+239,57.3,430000,MBC,Male,UG,Tamil Nadu,1
+240,63.6,752000,BC,Female,UG,Karnataka,0
+241,59.5,638000,OC,Male,Diploma,Karnataka,0
+242,68.9,163000,SC,Female,Diploma,Tamil Nadu,1
+243,48.9,814000,SC,Male,UG,Kerala,0
+244,52.4,216000,OC,Male,UG,Tamil Nadu,0
+245,95.6,555000,BC,Male,UG,Tamil Nadu,0
+246,54.6,309000,ST,Male,UG,Tamil Nadu,0
+247,56.8,232000,MBC,Female,UG,Tamil Nadu,0
+248,92.0,100000,MBC,Male,UG,Tamil Nadu,0
+249,99.0,268000,BC,Female,UG,Karnataka,0
+250,55.9,116000,BC,Female,UG,Tamil Nadu,0
+251,65.6,530000,OC,Male,UG,Tamil Nadu,0
+252,74.1,737000,MBC,Female,UG,Tamil Nadu,0
+253,90.7,184000,OC,Female,PG,Tamil Nadu,1
+254,58.2,355000,OC,Female,UG,Kerala,0
+255,67.1,192000,MBC,Male,UG,Kerala,0
+256,79.3,203000,ST,Female,UG,Tamil Nadu,0
+257,75.2,472000,SC,Female,UG,Tamil Nadu,0
+258,65.5,290000,BC,Female,UG,Tamil Nadu,0
+259,68.4,842000,BC,Male,UG,Tamil Nadu,0
+260,53.5,222000,BC,Female,UG,Kerala,0
+261,67.1,540000,BC,Male,UG,Kerala,0
+262,66.8,314000,BC,Male,UG,Tamil Nadu,0
+263,72.8,478000,BC,Male,UG,Tamil Nadu,0
+264,63.3,227000,MBC,Female,Diploma,Tamil Nadu,0
+265,75.7,288000,SC,Female,PG,Tamil Nadu,0
+266,82.2,277000,ST,Male,UG,Tamil Nadu,0
+267,71.9,180000,OC,Female,UG,Tamil Nadu,0
+268,74.2,441000,BC,Male,UG,Tamil Nadu,0
+269,70.6,438000,OC,Male,UG,Karnataka,0
+270,70.0,423000,BC,Female,UG,Tamil Nadu,0
+271,61.3,746000,BC,Female,UG,Tamil Nadu,0
+272,73.8,708000,OC,Female,UG,Tamil Nadu,0
+273,68.8,237000,SC,Female,UG,Tamil Nadu,0
+274,95.1,371000,BC,Male,UG,Tamil Nadu,0
+275,88.9,204000,SC,Female,PG,Tamil Nadu,0
+276,74.6,301000,OC,Male,PG,Kerala,0
+277,60.8,207000,OC,Female,UG,Tamil Nadu,0
+278,56.7,784000,BC,Male,UG,Tamil Nadu,0
+279,84.3,369000,OC,Male,UG,Kerala,0
+280,73.2,260000,BC,Male,PG,Tamil Nadu,0
+281,75.8,607000,ST,Female,UG,Tamil Nadu,0
+282,49.1,81000,BC,Male,UG,Tamil Nadu,0
+283,81.1,89000,OC,Female,UG,Tamil Nadu,0
+284,75.5,478000,MBC,Female,Diploma,Kerala,0
+285,56.7,308000,BC,Male,UG,Karnataka,0
+286,64.3,345000,MBC,Female,UG,Tamil Nadu,0
+287,73.2,134000,BC,Male,UG,Tamil Nadu,0
+288,70.6,292000,SC,Male,UG,Tamil Nadu,0
+289,66.5,987000,OC,Female,UG,Kerala,0
+290,68.8,486000,BC,Male,UG,Tamil Nadu,0
+291,67.0,328000,MBC,Male,UG,Kerala,0
+292,71.8,228000,SC,Male,UG,Tamil Nadu,1
+293,87.7,234000,BC,Female,UG,Tamil Nadu,0
+294,39.2,83000,MBC,Male,PG,Tamil Nadu,0
+295,67.2,346000,OC,Male,UG,Tamil Nadu,0
+296,72.1,493000,OC,Female,UG,Karnataka,0
+297,73.6,115000,OC,Male,UG,Tamil Nadu,0
+298,65.5,199000,MBC,Female,UG,Tamil Nadu,0
+299,48.9,148000,BC,Male,UG,Tamil Nadu,0
+300,73.9,166000,MBC,Female,Diploma,Tamil Nadu,0
+301,90.7,306000,OC,Female,UG,Tamil Nadu,1
+302,51.6,85000,SC,Male,PG,Tamil Nadu,1
+303,80.4,429000,SC,Male,PG,Tamil Nadu,0
+304,66.1,466000,OC,Female,UG,Tamil Nadu,0
+305,69.3,255000,OC,Female,UG,Kerala,0
+306,57.4,67000,OC,Male,UG,Tamil Nadu,1
+307,66.0,163000,SC,Female,UG,Kerala,1
+308,85.6,621000,BC,Male,UG,Kerala,0
+309,77.0,56000,BC,Female,UG,Tamil Nadu,0
+310,90.8,241000,BC,Female,UG,Tamil Nadu,0
+311,84.1,146000,SC,Female,UG,Karnataka,0
+312,75.3,481000,BC,Female,PG,Tamil Nadu,0
+313,90.9,198000,BC,Male,UG,Tamil Nadu,0
+314,75.3,378000,ST,Female,PG,Tamil Nadu,0
+315,79.9,416000,OC,Female,UG,Tamil Nadu,0
+316,66.4,892000,SC,Female,UG,Tamil Nadu,0
+317,70.8,263000,OC,Female,UG,Karnataka,0
+318,61.6,372000,BC,Female,UG,Tamil Nadu,0
+319,81.9,122000,SC,Female,UG,Kerala,0
+320,55.9,606000,MBC,Female,Diploma,Tamil Nadu,0
+321,79.4,188000,MBC,Female,UG,Tamil Nadu,0
+322,67.7,212000,BC,Male,UG,Tamil Nadu,0
+323,84.1,293000,BC,Male,UG,Tamil Nadu,0
+324,79.0,116000,BC,Male,UG,Tamil Nadu,0
+325,91.8,340000,BC,Male,UG,Tamil Nadu,0
+326,78.8,530000,BC,Male,UG,Tamil Nadu,0
+327,51.1,354000,BC,Male,UG,Tamil Nadu,0
+328,69.2,114000,BC,Male,UG,Tamil Nadu,0
+329,55.9,275000,BC,Female,UG,Tamil Nadu,0
+330,63.8,463000,BC,Male,Diploma,Tamil Nadu,0
+331,88.1,96000,OC,Female,UG,Tamil Nadu,0
+332,77.7,156000,SC,Male,UG,Tamil Nadu,0
+333,61.6,502000,MBC,Male,Diploma,Tamil Nadu,0
+334,57.8,349000,OC,Female,UG,Tamil Nadu,0
+335,70.4,380000,MBC,Female,UG,Tamil Nadu,0
+336,55.4,905000,SC,Female,PG,Tamil Nadu,0
+337,61.9,393000,BC,Female,Diploma,Tamil Nadu,0
+338,73.7,440000,OC,Female,PG,Tamil Nadu,0
+339,83.9,1508000,OC,Female,UG,Tamil Nadu,1
+340,77.3,261000,OC,Male,Diploma,Karnataka,0
+341,42.5,184000,SC,Female,UG,Kerala,0
+342,73.7,383000,ST,Female,Diploma,Tamil Nadu,0
+343,70.9,386000,OC,Male,PG,Tamil Nadu,0
+344,75.0,216000,MBC,Male,Diploma,Tamil Nadu,0
+345,89.4,160000,OC,Female,UG,Karnataka,0
+346,45.2,1186000,MBC,Male,UG,Tamil Nadu,1
+347,62.9,361000,SC,Female,UG,Tamil Nadu,0
+348,77.1,191000,BC,Male,UG,Tamil Nadu,0
+349,51.0,514000,OC,Male,UG,Tamil Nadu,0
+350,87.7,278000,MBC,Male,Diploma,Tamil Nadu,0
+351,74.4,255000,ST,Female,UG,Tamil Nadu,0
+352,80.2,416000,BC,Male,UG,Tamil Nadu,0
+353,63.1,137000,OC,Female,UG,Tamil Nadu,0
+354,79.8,366000,OC,Female,UG,Karnataka,0
+355,82.8,935000,MBC,Male,UG,Kerala,0
+356,72.8,392000,MBC,Female,UG,Tamil Nadu,0
+357,72.8,237000,SC,Male,PG,Tamil Nadu,0
+358,73.2,219000,SC,Female,PG,Tamil Nadu,0
+359,59.6,232000,SC,Male,UG,Karnataka,0
+360,68.2,255000,SC,Male,UG,Kerala,0
+361,68.2,236000,BC,Female,UG,Tamil Nadu,1
+362,74.6,514000,MBC,Female,PG,Karnataka,0
+363,82.0,105000,BC,Female,PG,Tamil Nadu,0
+364,57.3,497000,BC,Female,UG,Tamil Nadu,0
+365,68.5,236000,ST,Male,PG,Tamil Nadu,0
+366,87.8,372000,MBC,Male,UG,Tamil Nadu,1
+367,61.1,151000,ST,Male,UG,Tamil Nadu,0
+368,60.1,658000,BC,Female,PG,Tamil Nadu,0
+369,72.4,626000,BC,Male,UG,Karnataka,0
+370,80.1,527000,BC,Male,UG,Tamil Nadu,0
+371,70.1,120000,OC,Male,UG,Kerala,0
+372,85.9,488000,BC,Male,UG,Kerala,0
+373,80.3,378000,BC,Male,UG,Tamil Nadu,0
+374,80.1,113000,OC,Male,UG,Karnataka,1
+375,76.6,292000,ST,Male,UG,Tamil Nadu,0
+376,97.9,369000,OC,Female,UG,Tamil Nadu,0
+377,67.5,414000,OC,Male,PG,Tamil Nadu,0
+378,46.0,330000,SC,Male,UG,Tamil Nadu,0
+379,89.3,353000,OC,Female,Diploma,Karnataka,0
+380,64.5,718000,SC,Male,UG,Tamil Nadu,0
+381,71.3,619000,MBC,Male,UG,Tamil Nadu,0
+382,85.7,53000,OC,Male,UG,Tamil Nadu,0
+383,50.8,245000,MBC,Male,PG,Tamil Nadu,0
+384,55.0,269000,MBC,Female,UG,Kerala,1
+385,50.8,104000,SC,Male,Diploma,Tamil Nadu,0
+386,60.5,314000,SC,Male,UG,Kerala,1
+387,75.3,627000,MBC,Male,UG,Tamil Nadu,0
+388,76.3,155000,MBC,Male,UG,Kerala,0
+389,73.3,363000,BC,Female,UG,Tamil Nadu,0
+390,53.0,171000,MBC,Male,UG,Tamil Nadu,0
+391,42.3,198000,ST,Female,UG,Tamil Nadu,0
+392,70.7,720000,MBC,Female,UG,Tamil Nadu,0
+393,64.3,214000,MBC,Female,UG,Kerala,0
+394,75.5,391000,BC,Female,UG,Tamil Nadu,0
+395,78.4,96000,SC,Female,UG,Tamil Nadu,0
+396,71.7,907000,ST,Female,UG,Karnataka,0
+397,79.1,426000,OC,Female,UG,Tamil Nadu,0
+398,72.8,266000,BC,Male,UG,Tamil Nadu,0
+399,76.4,419000,BC,Male,UG,Karnataka,0
+400,61.5,127000,BC,Male,UG,Tamil Nadu,0
+401,67.8,603000,MBC,Female,PG,Kerala,0
+402,72.4,244000,OC,Female,UG,Tamil Nadu,0
+403,79.8,262000,BC,Male,UG,Kerala,0
+404,65.3,221000,MBC,Male,PG,Tamil Nadu,0
+405,76.3,209000,MBC,Male,UG,Tamil Nadu,0
+406,66.8,450000,MBC,Female,UG,Tamil Nadu,0
+407,68.6,346000,MBC,Female,Diploma,Kerala,0
+408,80.0,438000,MBC,Female,Diploma,Tamil Nadu,0
+409,46.1,295000,SC,Male,PG,Karnataka,0
+410,54.4,403000,MBC,Male,UG,Tamil Nadu,0
+411,52.2,231000,BC,Male,UG,Tamil Nadu,0
+412,42.0,1130000,MBC,Female,Diploma,Karnataka,0
+413,61.9,116000,OC,Female,Diploma,Tamil Nadu,0
+414,79.0,632000,BC,Female,UG,Tamil Nadu,0
+415,66.6,674000,BC,Male,UG,Kerala,0
+416,72.4,178000,SC,Male,UG,Tamil Nadu,0
+417,83.1,1130000,MBC,Female,UG,Tamil Nadu,0
+418,85.9,539000,OC,Male,UG,Tamil Nadu,0
+419,69.2,531000,MBC,Female,UG,Tamil Nadu,0
+420,86.2,302000,BC,Male,UG,Tamil Nadu,0
+421,71.1,260000,MBC,Male,UG,Tamil Nadu,0
+422,60.0,262000,SC,Female,UG,Tamil Nadu,0
+423,62.9,375000,MBC,Male,UG,Tamil Nadu,0
+424,52.2,687000,MBC,Male,UG,Tamil Nadu,0
+425,59.3,331000,BC,Female,UG,Tamil Nadu,0
+426,65.7,172000,BC,Male,Diploma,Tamil Nadu,0
+427,79.6,486000,SC,Male,UG,Tamil Nadu,0
+428,90.6,515000,MBC,Female,UG,Tamil Nadu,0
+429,53.4,439000,BC,Male,UG,Karnataka,1
+430,74.7,464000,BC,Male,UG,Tamil Nadu,1
+431,57.5,252000,OC,Male,UG,Tamil Nadu,0
+432,75.7,170000,OC,Male,UG,Tamil Nadu,0
+433,68.4,176000,OC,Male,UG,Tamil Nadu,0
+434,48.0,111000,BC,Female,UG,Kerala,0
+435,81.1,342000,ST,Male,UG,Karnataka,0
+436,62.7,282000,BC,Male,UG,Karnataka,0
+437,63.6,228000,BC,Male,UG,Tamil Nadu,0
+438,57.2,50000,OC,Male,UG,Tamil Nadu,0
+439,62.1,140000,BC,Female,UG,Tamil Nadu,0
+440,75.1,581000,SC,Male,UG,Tamil Nadu,0
+441,67.7,199000,BC,Male,UG,Tamil Nadu,0
+442,73.9,368000,SC,Male,UG,Tamil Nadu,0
+443,74.3,129000,SC,Male,UG,Tamil Nadu,0
+444,85.8,703000,OC,Male,Diploma,Karnataka,1
+445,65.9,272000,MBC,Female,Diploma,Tamil Nadu,0
+446,52.3,353000,ST,Female,Diploma,Tamil Nadu,0
+447,82.8,1197000,BC,Male,UG,Karnataka,0
+448,66.0,737000,OC,Female,UG,Kerala,1
+449,83.4,247000,SC,Male,UG,Tamil Nadu,1
+450,74.6,208000,SC,Male,UG,Tamil Nadu,0
+451,68.4,244000,BC,Female,UG,Tamil Nadu,0
+452,74.2,403000,MBC,Female,UG,Tamil Nadu,0
+453,93.4,278000,BC,Male,UG,Tamil Nadu,0
+454,94.9,234000,SC,Female,UG,Tamil Nadu,1
+455,70.8,715000,BC,Male,UG,Tamil Nadu,0
+456,71.9,277000,OC,Female,PG,Tamil Nadu,0
+457,82.9,1179000,MBC,Female,UG,Tamil Nadu,0
+458,59.9,313000,ST,Female,PG,Kerala,0
+459,74.0,866000,SC,Female,UG,Tamil Nadu,0
+460,69.7,367000,BC,Female,UG,Tamil Nadu,0
+461,73.8,528000,OC,Female,UG,Tamil Nadu,0
+462,60.0,192000,ST,Female,UG,Kerala,0
+463,50.9,178000,ST,Male,UG,Tamil Nadu,1
+464,45.1,391000,BC,Male,UG,Kerala,0
+465,56.6,537000,MBC,Male,UG,Tamil Nadu,1
+466,64.5,304000,BC,Female,UG,Tamil Nadu,0
+467,66.5,137000,BC,Male,UG,Tamil Nadu,0
+468,93.2,131000,OC,Male,Diploma,Tamil Nadu,0
+469,83.3,126000,OC,Female,UG,Kerala,0
+470,58.5,103000,BC,Male,UG,Tamil Nadu,0
+471,74.2,317000,SC,Female,UG,Tamil Nadu,0
+472,65.1,582000,OC,Female,UG,Tamil Nadu,0
+473,66.6,294000,BC,Male,UG,Tamil Nadu,0
+474,72.2,76000,BC,Male,UG,Tamil Nadu,0
+475,77.4,264000,BC,Male,PG,Tamil Nadu,1
+476,65.9,269000,OC,Male,UG,Karnataka,1
+477,82.8,1043000,MBC,Male,UG,Kerala,1
+478,56.3,124000,BC,Male,UG,Karnataka,0
+479,70.1,235000,MBC,Male,Diploma,Tamil Nadu,1
+480,99.0,825000,SC,Male,PG,Tamil Nadu,0
+481,72.7,388000,OC,Female,Diploma,Tamil Nadu,1
+482,87.2,416000,SC,Female,UG,Tamil Nadu,0
+483,71.1,318000,SC,Male,UG,Tamil Nadu,0
+484,77.0,361000,SC,Female,UG,Tamil Nadu,1
+485,69.3,473000,MBC,Male,Diploma,Tamil Nadu,0
+486,68.0,182000,MBC,Male,UG,Tamil Nadu,0
+487,60.6,502000,MBC,Male,UG,Karnataka,0
+488,75.2,130000,MBC,Male,UG,Tamil Nadu,0
+489,59.8,361000,OC,Male,UG,Tamil Nadu,0
+490,78.0,330000,ST,Male,UG,Tamil Nadu,1
+491,83.0,205000,MBC,Male,UG,Tamil Nadu,1
+492,74.4,293000,SC,Male,UG,Karnataka,1
+493,66.6,204000,BC,Female,PG,Tamil Nadu,0
+494,75.4,156000,OC,Female,UG,Karnataka,0
+495,66.3,240000,BC,Female,PG,Kerala,0
+496,81.2,153000,BC,Female,UG,Tamil Nadu,0
+497,48.0,360000,BC,Female,PG,Tamil Nadu,0
+498,66.0,149000,BC,Male,UG,Tamil Nadu,0
+499,46.1,455000,BC,Male,Diploma,Tamil Nadu,1
+500,52.1,146000,BC,Male,UG,Tamil Nadu,0
+501,86.4,211000,BC,Male,UG,Karnataka,0
+502,80.7,204000,ST,Female,UG,Tamil Nadu,0
+503,61.4,657000,OC,Male,UG,Kerala,0
+504,52.0,362000,BC,Female,UG,Tamil Nadu,0
+505,35.0,261000,BC,Female,PG,Karnataka,0
+506,63.5,400000,BC,Male,Diploma,Tamil Nadu,0
+507,99.0,84000,BC,Female,UG,Tamil Nadu,0
+508,75.2,289000,MBC,Male,UG,Tamil Nadu,0
+509,63.3,983000,ST,Male,UG,Tamil Nadu,0
+510,75.6,321000,BC,Male,PG,Kerala,0
+511,51.3,309000,MBC,Male,PG,Tamil Nadu,0
+512,66.4,412000,OC,Female,UG,Tamil Nadu,0
+513,71.2,508000,BC,Male,Diploma,Tamil Nadu,0
+514,69.0,89000,BC,Male,UG,Tamil Nadu,0
+515,79.5,108000,OC,Male,PG,Tamil Nadu,1
+516,74.1,336000,MBC,Male,Diploma,Tamil Nadu,0
+517,78.0,193000,MBC,Female,PG,Tamil Nadu,0
+518,61.7,652000,MBC,Female,UG,Tamil Nadu,0
+519,80.8,245000,BC,Male,UG,Tamil Nadu,0
+520,89.5,93000,MBC,Female,UG,Karnataka,0
+521,58.4,139000,BC,Male,PG,Tamil Nadu,1
+522,59.3,57000,OC,Male,UG,Tamil Nadu,0
+523,86.0,258000,OC,Female,UG,Tamil Nadu,0
+524,67.7,265000,MBC,Male,Diploma,Tamil Nadu,0
+525,86.8,230000,ST,Male,UG,Tamil Nadu,0
+526,64.7,567000,OC,Male,UG,Tamil Nadu,1
+527,87.5,609000,MBC,Male,UG,Tamil Nadu,0
+528,71.6,268000,SC,Female,UG,Tamil Nadu,0
+529,73.1,82000,SC,Male,UG,Tamil Nadu,0
+530,88.8,429000,BC,Male,UG,Karnataka,0
+531,65.7,414000,MBC,Male,UG,Tamil Nadu,0
+532,58.7,357000,MBC,Female,UG,Tamil Nadu,0
+533,64.6,534000,SC,Female,UG,Tamil Nadu,0
+534,75.4,147000,OC,Female,UG,Tamil Nadu,0
+535,51.2,990000,SC,Female,UG,Kerala,1
+536,77.6,167000,OC,Female,UG,Tamil Nadu,0
+537,63.5,465000,SC,Female,UG,Tamil Nadu,0
+538,83.8,108000,OC,Female,PG,Tamil Nadu,0
+539,41.3,170000,OC,Male,UG,Tamil Nadu,0
+540,60.6,737000,OC,Male,UG,Karnataka,0
+541,49.8,254000,BC,Male,Diploma,Tamil Nadu,0
+542,60.1,491000,BC,Male,UG,Kerala,0
+543,73.0,342000,OC,Male,UG,Tamil Nadu,0
+544,67.8,278000,BC,Female,UG,Karnataka,0
+545,67.0,672000,BC,Female,UG,Tamil Nadu,0
+546,68.1,257000,SC,Male,UG,Tamil Nadu,0
+547,72.4,102000,SC,Male,PG,Kerala,0
+548,57.9,183000,MBC,Male,PG,Tamil Nadu,0
+549,78.5,413000,OC,Female,UG,Tamil Nadu,0
+550,78.0,376000,BC,Male,UG,Karnataka,1
+551,74.6,116000,SC,Male,UG,Tamil Nadu,0
+552,76.7,192000,OC,Male,UG,Tamil Nadu,0
+553,73.6,209000,BC,Female,UG,Tamil Nadu,0
+554,94.4,238000,ST,Male,UG,Kerala,0
+555,69.0,130000,ST,Female,Diploma,Karnataka,0
+556,66.3,203000,BC,Female,UG,Tamil Nadu,0
+557,61.0,192000,MBC,Male,UG,Tamil Nadu,0
+558,57.6,471000,BC,Female,UG,Tamil Nadu,0
+559,55.1,482000,SC,Female,UG,Tamil Nadu,0
+560,59.3,272000,OC,Female,Diploma,Kerala,0
+561,69.2,234000,OC,Male,UG,Tamil Nadu,1
+562,74.0,323000,MBC,Female,PG,Tamil Nadu,1
+563,70.6,182000,BC,Female,PG,Tamil Nadu,0
+564,60.8,149000,MBC,Male,Diploma,Tamil Nadu,0
+565,80.8,169000,BC,Male,UG,Kerala,0
+566,78.9,203000,SC,Female,UG,Tamil Nadu,0
+567,68.1,148000,SC,Female,PG,Tamil Nadu,0
+568,62.2,327000,BC,Female,PG,Kerala,0
+569,76.6,459000,SC,Female,UG,Karnataka,1
+570,72.3,114000,BC,Male,PG,Tamil Nadu,0
+571,52.6,301000,BC,Male,UG,Karnataka,0
+572,69.2,260000,OC,Female,UG,Tamil Nadu,0
+573,73.1,364000,SC,Male,PG,Kerala,0
+574,59.2,294000,SC,Male,UG,Tamil Nadu,1
+575,72.3,124000,SC,Female,UG,Tamil Nadu,0
+576,52.5,139000,SC,Male,Diploma,Tamil Nadu,0
+577,86.0,302000,ST,Male,PG,Tamil Nadu,0
+578,85.0,550000,BC,Male,PG,Tamil Nadu,0
+579,67.0,79000,ST,Male,UG,Tamil Nadu,0
+580,74.4,365000,MBC,Male,Diploma,Tamil Nadu,0
+581,41.1,605000,BC,Male,UG,Tamil Nadu,0
+582,56.1,271000,MBC,Male,UG,Tamil Nadu,0
+583,66.5,413000,BC,Male,UG,Tamil Nadu,0
+584,57.1,194000,BC,Female,PG,Karnataka,0
+585,78.6,276000,BC,Female,Diploma,Karnataka,0
+586,94.0,112000,OC,Female,PG,Tamil Nadu,0
+587,55.9,73000,BC,Female,UG,Tamil Nadu,0
+588,60.0,522000,SC,Male,UG,Tamil Nadu,0
+589,72.8,164000,MBC,Female,UG,Tamil Nadu,0
+590,89.3,226000,BC,Female,UG,Karnataka,0
+591,55.3,129000,BC,Male,UG,Tamil Nadu,0
+592,73.0,127000,BC,Male,UG,Tamil Nadu,1
+593,91.9,267000,BC,Female,PG,Tamil Nadu,0
+594,50.2,191000,SC,Female,PG,Tamil Nadu,0
+595,54.6,372000,OC,Male,PG,Kerala,0
+596,64.9,389000,MBC,Male,UG,Tamil Nadu,0
+597,63.8,360000,SC,Male,UG,Tamil Nadu,0
+598,79.8,342000,MBC,Male,UG,Tamil Nadu,0
+599,72.9,764000,SC,Female,UG,Karnataka,0
+600,48.7,156000,BC,Female,UG,Tamil Nadu,0
+601,76.2,287000,SC,Male,UG,Kerala,0
+602,63.1,585000,MBC,Female,UG,Karnataka,0
+603,85.3,633000,SC,Female,UG,Tamil Nadu,0
+604,62.5,126000,MBC,Female,UG,Karnataka,1
+605,62.4,246000,SC,Male,UG,Tamil Nadu,0
+606,76.5,670000,ST,Female,UG,Tamil Nadu,0
+607,79.2,402000,BC,Female,UG,Tamil Nadu,0
+608,75.4,333000,SC,Female,UG,Tamil Nadu,0
+609,49.8,260000,MBC,Male,UG,Tamil Nadu,0
+610,76.5,236000,BC,Male,UG,Tamil Nadu,0
+611,57.6,353000,SC,Female,UG,Tamil Nadu,0
+612,72.8,255000,BC,Male,Diploma,Tamil Nadu,0
+613,52.9,289000,MBC,Female,UG,Tamil Nadu,0
+614,75.4,311000,OC,Male,UG,Tamil Nadu,0
+615,60.3,197000,BC,Female,UG,Tamil Nadu,1
+616,54.6,408000,SC,Male,UG,Karnataka,0
+617,78.6,1704000,BC,Male,UG,Karnataka,0
+618,72.9,102000,BC,Male,PG,Tamil Nadu,0
+619,62.6,360000,BC,Male,UG,Tamil Nadu,0
+620,87.4,188000,BC,Male,UG,Tamil Nadu,1
+621,64.7,419000,SC,Male,UG,Kerala,0
+622,70.4,305000,SC,Male,UG,Tamil Nadu,0
+623,73.2,468000,OC,Female,UG,Kerala,0
+624,62.6,600000,MBC,Female,UG,Tamil Nadu,0
+625,75.7,333000,BC,Female,UG,Tamil Nadu,0
+626,63.6,585000,MBC,Male,Diploma,Kerala,1
+627,65.1,73000,BC,Female,PG,Tamil Nadu,0
+628,86.4,770000,BC,Female,Diploma,Kerala,0
+629,57.5,371000,BC,Male,UG,Tamil Nadu,0
+630,41.0,566000,MBC,Female,PG,Tamil Nadu,0
+631,89.3,143000,BC,Female,UG,Tamil Nadu,1
+632,99.0,180000,BC,Male,UG,Tamil Nadu,0
+633,65.1,324000,SC,Male,Diploma,Tamil Nadu,0
+634,46.8,294000,MBC,Male,UG,Tamil Nadu,0
+635,66.3,351000,BC,Male,PG,Tamil Nadu,0
+636,66.6,568000,SC,Female,PG,Tamil Nadu,0
+637,67.7,103000,SC,Female,UG,Tamil Nadu,0
+638,56.6,532000,OC,Female,UG,Tamil Nadu,0
+639,77.0,298000,MBC,Male,UG,Tamil Nadu,0
+640,76.3,262000,BC,Male,Diploma,Tamil Nadu,0
+641,52.1,123000,MBC,Female,PG,Karnataka,0
+642,78.4,401000,BC,Male,UG,Tamil Nadu,0
+643,94.6,70000,MBC,Female,UG,Tamil Nadu,0
+644,72.1,438000,BC,Female,UG,Karnataka,0
+645,66.0,121000,BC,Male,UG,Tamil Nadu,0
+646,68.3,306000,ST,Female,UG,Tamil Nadu,0
+647,77.4,276000,BC,Male,PG,Tamil Nadu,0
+648,49.2,598000,SC,Male,UG,Tamil Nadu,0
+649,72.0,266000,ST,Male,PG,Tamil Nadu,0
+650,65.3,196000,SC,Male,UG,Karnataka,0
+651,92.2,219000,OC,Male,UG,Karnataka,0
+652,67.9,636000,SC,Female,UG,Tamil Nadu,0
+653,90.0,409000,OC,Female,PG,Tamil Nadu,0
+654,56.8,235000,BC,Male,UG,Kerala,0
+655,77.0,257000,SC,Female,UG,Tamil Nadu,1
+656,73.8,116000,MBC,Female,UG,Tamil Nadu,0
+657,59.6,374000,BC,Male,PG,Tamil Nadu,0
+658,72.1,103000,BC,Male,UG,Tamil Nadu,0
+659,84.6,466000,SC,Male,UG,Tamil Nadu,0
+660,66.1,320000,MBC,Female,PG,Tamil Nadu,0
+661,49.7,1242000,BC,Female,PG,Tamil Nadu,0
+662,69.8,153000,SC,Male,UG,Tamil Nadu,0
+663,59.2,279000,BC,Female,UG,Karnataka,0
+664,65.9,872000,OC,Male,UG,Tamil Nadu,0
+665,69.0,606000,MBC,Female,UG,Tamil Nadu,0
+666,49.5,195000,ST,Female,UG,Tamil Nadu,0
+667,50.6,339000,BC,Female,UG,Tamil Nadu,0
+668,75.8,297000,BC,Male,UG,Karnataka,0
+669,63.7,351000,OC,Male,UG,Karnataka,0
+670,39.2,195000,SC,Female,UG,Tamil Nadu,0
+671,79.4,281000,BC,Male,UG,Tamil Nadu,0
+672,73.3,114000,BC,Male,UG,Tamil Nadu,0
+673,61.4,322000,ST,Male,UG,Tamil Nadu,0
+674,54.2,388000,OC,Female,Diploma,Tamil Nadu,0
+675,80.0,259000,MBC,Male,UG,Tamil Nadu,0
+676,74.2,113000,BC,Female,UG,Tamil Nadu,0
+677,98.6,537000,SC,Female,UG,Tamil Nadu,0
+678,75.0,369000,BC,Female,UG,Tamil Nadu,0
+679,74.7,192000,BC,Female,UG,Tamil Nadu,0
+680,68.0,251000,OC,Male,UG,Tamil Nadu,0
+681,79.8,121000,MBC,Female,PG,Tamil Nadu,0
+682,77.5,160000,SC,Female,UG,Tamil Nadu,0
+683,85.0,215000,OC,Female,UG,Tamil Nadu,0
+684,63.7,620000,BC,Female,UG,Tamil Nadu,0
+685,64.8,202000,SC,Female,UG,Tamil Nadu,0
+686,64.3,435000,OC,Female,Diploma,Kerala,1
+687,79.5,215000,BC,Female,UG,Karnataka,0
+688,88.0,344000,MBC,Male,PG,Tamil Nadu,0
+689,64.5,272000,BC,Male,PG,Tamil Nadu,0
+690,64.9,501000,BC,Male,UG,Kerala,0
+691,73.8,215000,BC,Female,UG,Tamil Nadu,0
+692,67.1,115000,OC,Male,UG,Tamil Nadu,0
+693,81.4,129000,BC,Male,PG,Tamil Nadu,0
+694,43.0,216000,MBC,Female,UG,Tamil Nadu,0
+695,60.1,140000,MBC,Male,UG,Tamil Nadu,0
+696,60.6,379000,OC,Female,PG,Tamil Nadu,0
+697,42.2,224000,SC,Female,PG,Tamil Nadu,0
+698,58.4,1233000,OC,Male,UG,Tamil Nadu,0
+699,59.0,105000,SC,Male,UG,Tamil Nadu,0
+700,67.6,335000,BC,Female,PG,Tamil Nadu,0
+701,83.4,151000,SC,Female,UG,Tamil Nadu,0
+702,67.1,221000,BC,Female,PG,Tamil Nadu,1
+703,57.6,323000,OC,Female,UG,Tamil Nadu,1
+704,69.3,73000,BC,Male,UG,Tamil Nadu,0
+705,82.6,342000,OC,Female,PG,Kerala,0
+706,58.3,929000,BC,Male,UG,Tamil Nadu,0
+707,59.1,226000,MBC,Male,UG,Tamil Nadu,0
+708,76.7,347000,SC,Female,UG,Tamil Nadu,0
+709,67.3,549000,OC,Male,UG,Kerala,0
+710,77.8,269000,SC,Female,PG,Kerala,1
+711,69.8,209000,SC,Female,UG,Karnataka,1
+712,78.4,76000,SC,Male,UG,Tamil Nadu,0
+713,57.6,436000,MBC,Female,UG,Tamil Nadu,0
+714,69.9,277000,MBC,Female,Diploma,Tamil Nadu,0
+715,67.5,162000,BC,Male,UG,Tamil Nadu,0
+716,55.4,320000,MBC,Female,Diploma,Tamil Nadu,1
+717,51.2,209000,SC,Male,PG,Tamil Nadu,0
+718,78.2,216000,OC,Female,UG,Tamil Nadu,0
+719,65.8,427000,BC,Male,PG,Karnataka,0
+720,57.7,133000,OC,Female,UG,Tamil Nadu,0
+721,68.8,556000,ST,Female,UG,Tamil Nadu,0
+722,83.5,128000,BC,Female,UG,Tamil Nadu,0
+723,42.6,199000,MBC,Male,PG,Karnataka,0
+724,52.0,940000,SC,Female,PG,Karnataka,0
+725,58.9,583000,ST,Male,PG,Tamil Nadu,0
+726,87.5,314000,OC,Male,Diploma,Karnataka,0
+727,73.4,169000,SC,Female,UG,Karnataka,0
+728,79.2,216000,SC,Female,PG,Kerala,0
+729,56.3,310000,OC,Female,PG,Karnataka,0
+730,56.6,303000,SC,Male,UG,Tamil Nadu,0
+731,75.4,281000,BC,Female,UG,Kerala,0
+732,70.7,291000,MBC,Female,UG,Tamil Nadu,0
+733,76.6,261000,BC,Female,PG,Kerala,0
+734,67.7,125000,BC,Male,UG,Tamil Nadu,0
+735,73.3,218000,OC,Female,PG,Kerala,0
+736,71.9,513000,OC,Female,UG,Karnataka,0
+737,79.3,130000,OC,Female,UG,Tamil Nadu,0
+738,79.7,265000,MBC,Male,UG,Karnataka,0
+739,50.6,181000,BC,Male,UG,Tamil Nadu,0
+740,43.0,317000,BC,Male,PG,Tamil Nadu,0
+741,82.0,235000,MBC,Female,UG,Tamil Nadu,0
+742,84.3,720000,MBC,Male,Diploma,Kerala,0
+743,57.8,402000,BC,Male,UG,Tamil Nadu,1
+744,47.7,135000,ST,Female,Diploma,Tamil Nadu,0
+745,71.2,444000,BC,Male,UG,Tamil Nadu,1
+746,81.2,186000,SC,Female,UG,Tamil Nadu,0
+747,91.6,210000,OC,Female,UG,Tamil Nadu,1
+748,76.2,358000,MBC,Male,UG,Karnataka,1
+749,65.5,221000,ST,Male,UG,Tamil Nadu,1
+750,59.3,507000,SC,Female,PG,Kerala,0
+751,70.1,186000,MBC,Male,UG,Tamil Nadu,0
+752,66.4,205000,MBC,Female,UG,Karnataka,0
+753,57.8,200000,BC,Male,UG,Tamil Nadu,0
+754,94.6,211000,MBC,Male,UG,Tamil Nadu,0
+755,91.4,574000,SC,Male,UG,Tamil Nadu,1
+756,83.6,432000,ST,Female,UG,Tamil Nadu,0
+757,58.9,827000,BC,Male,PG,Tamil Nadu,0
+758,80.3,1156000,OC,Male,Diploma,Kerala,0
+759,77.7,160000,MBC,Male,UG,Tamil Nadu,0
+760,75.3,309000,OC,Male,UG,Tamil Nadu,0
+761,85.0,146000,BC,Male,UG,Tamil Nadu,0
+762,77.6,186000,BC,Female,UG,Karnataka,0
+763,78.9,203000,MBC,Female,UG,Tamil Nadu,0
+764,77.6,157000,OC,Male,Diploma,Tamil Nadu,0
+765,74.1,158000,OC,Female,UG,Tamil Nadu,0
+766,48.6,272000,OC,Female,UG,Tamil Nadu,0
+767,71.0,143000,SC,Female,PG,Tamil Nadu,0
+768,63.3,492000,MBC,Female,UG,Tamil Nadu,1
+769,54.6,171000,OC,Male,PG,Tamil Nadu,0
+770,90.2,1600000,OC,Female,UG,Tamil Nadu,0
+771,90.7,226000,MBC,Female,UG,Tamil Nadu,0
+772,86.3,310000,BC,Female,Diploma,Tamil Nadu,0
+773,73.1,136000,MBC,Male,PG,Karnataka,0
+774,86.2,825000,BC,Female,PG,Tamil Nadu,0
+775,70.1,581000,SC,Female,UG,Tamil Nadu,0
+776,72.4,354000,BC,Female,PG,Tamil Nadu,0
+777,56.9,132000,MBC,Male,UG,Tamil Nadu,0
+778,74.8,337000,OC,Male,UG,Karnataka,1
+779,70.7,151000,ST,Female,UG,Tamil Nadu,0
+780,54.4,713000,ST,Male,UG,Tamil Nadu,0
+781,69.4,482000,MBC,Male,UG,Tamil Nadu,0
+782,69.0,314000,BC,Female,UG,Tamil Nadu,0
+783,91.6,69000,BC,Female,PG,Karnataka,0
+784,80.7,164000,SC,Male,PG,Tamil Nadu,0
+785,70.1,448000,MBC,Male,Diploma,Tamil Nadu,0
+786,73.0,614000,BC,Male,UG,Kerala,0
+787,70.5,577000,BC,Male,Diploma,Kerala,1
+788,67.6,114000,BC,Male,UG,Tamil Nadu,0
+789,57.0,355000,SC,Female,UG,Tamil Nadu,0
+790,68.2,545000,MBC,Female,PG,Tamil Nadu,0
+791,61.0,110000,MBC,Male,UG,Kerala,0
+792,55.0,295000,MBC,Male,UG,Tamil Nadu,0
+793,76.1,350000,BC,Female,UG,Tamil Nadu,0
+794,74.7,248000,BC,Male,UG,Kerala,0
+795,48.6,98000,OC,Male,PG,Tamil Nadu,0
+796,68.5,244000,SC,Male,UG,Tamil Nadu,1
+797,81.9,244000,BC,Female,UG,Tamil Nadu,1
+798,82.7,271000,BC,Male,UG,Karnataka,1
+799,82.3,211000,BC,Male,UG,Tamil Nadu,0
+800,70.5,227000,BC,Female,PG,Tamil Nadu,0
+801,59.9,290000,MBC,Male,Diploma,Tamil Nadu,0
+802,57.0,387000,BC,Male,PG,Kerala,1
+803,74.1,247000,OC,Male,PG,Kerala,0
+804,74.6,232000,SC,Female,UG,Tamil Nadu,0
+805,85.4,313000,BC,Female,PG,Tamil Nadu,0
+806,83.2,94000,BC,Female,UG,Karnataka,0
+807,68.4,395000,BC,Male,UG,Kerala,1
+808,55.1,296000,SC,Male,UG,Tamil Nadu,0
+809,66.2,304000,BC,Female,UG,Tamil Nadu,0
+810,72.6,528000,SC,Female,PG,Karnataka,0
+811,67.6,92000,ST,Male,UG,Karnataka,0
+812,63.1,91000,MBC,Female,Diploma,Tamil Nadu,0
+813,73.0,350000,BC,Female,UG,Tamil Nadu,1
+814,64.0,295000,MBC,Female,UG,Tamil Nadu,0
+815,62.5,328000,BC,Female,PG,Kerala,0
+816,73.7,225000,BC,Male,UG,Tamil Nadu,0
+817,65.2,442000,BC,Male,UG,Tamil Nadu,0
+818,72.9,519000,BC,Male,UG,Tamil Nadu,0
+819,73.3,396000,OC,Male,Diploma,Karnataka,0
+820,56.3,254000,BC,Female,PG,Karnataka,1
+821,64.2,84000,OC,Female,UG,Karnataka,0
+822,87.3,470000,BC,Female,UG,Tamil Nadu,0
+823,56.1,617000,MBC,Male,UG,Kerala,0
+824,44.6,437000,ST,Female,UG,Kerala,0
+825,47.7,175000,OC,Male,UG,Tamil Nadu,0
+826,70.3,444000,MBC,Female,UG,Tamil Nadu,1
+827,70.4,497000,BC,Male,UG,Karnataka,0
+828,68.6,756000,OC,Male,UG,Tamil Nadu,1
+829,84.6,175000,BC,Male,UG,Tamil Nadu,0
+830,37.9,259000,OC,Female,UG,Tamil Nadu,0
+831,74.8,464000,BC,Male,UG,Tamil Nadu,0
+832,88.7,307000,BC,Male,PG,Tamil Nadu,0
+833,56.5,152000,BC,Male,UG,Kerala,1
+834,65.4,380000,BC,Female,PG,Tamil Nadu,0
+835,61.0,420000,OC,Male,UG,Kerala,0
+836,59.3,313000,OC,Male,UG,Tamil Nadu,0
+837,66.1,338000,OC,Male,UG,Tamil Nadu,1
+838,87.1,254000,BC,Male,UG,Kerala,0
+839,92.0,720000,BC,Female,UG,Tamil Nadu,0
+840,66.0,173000,BC,Female,PG,Tamil Nadu,0
+841,92.9,208000,BC,Male,Diploma,Kerala,1
+842,70.4,299000,OC,Female,UG,Tamil Nadu,0
+843,91.0,503000,ST,Male,UG,Tamil Nadu,0
+844,68.9,121000,OC,Female,PG,Tamil Nadu,1
+845,71.6,135000,OC,Male,UG,Karnataka,0
+846,74.4,87000,OC,Male,UG,Tamil Nadu,0
+847,99.0,302000,ST,Male,PG,Tamil Nadu,0
+848,80.2,152000,MBC,Male,UG,Karnataka,0
+849,61.5,235000,MBC,Female,UG,Tamil Nadu,0
+850,81.6,441000,ST,Female,UG,Tamil Nadu,0
+851,65.7,202000,OC,Female,UG,Tamil Nadu,0
+852,64.1,341000,ST,Male,UG,Tamil Nadu,0
+853,80.9,248000,BC,Female,PG,Tamil Nadu,0
+854,70.4,444000,MBC,Male,UG,Tamil Nadu,0
+855,73.3,394000,BC,Female,PG,Tamil Nadu,0
+856,70.2,196000,BC,Female,PG,Tamil Nadu,0
+857,74.0,268000,ST,Male,PG,Tamil Nadu,0
+858,75.1,555000,OC,Male,UG,Tamil Nadu,0
+859,46.8,376000,ST,Male,UG,Tamil Nadu,0
+860,78.0,128000,BC,Female,UG,Tamil Nadu,0
+861,58.2,439000,MBC,Female,UG,Kerala,0
+862,52.7,155000,ST,Male,Diploma,Tamil Nadu,1
+863,69.3,692000,OC,Female,UG,Tamil Nadu,0
+864,71.0,548000,SC,Female,PG,Tamil Nadu,0
+865,61.7,353000,MBC,Male,UG,Kerala,0
+866,80.0,326000,MBC,Female,UG,Tamil Nadu,0
+867,53.9,262000,OC,Male,UG,Kerala,0
+868,65.1,446000,BC,Female,PG,Tamil Nadu,0
+869,63.0,237000,MBC,Male,UG,Tamil Nadu,1
+870,69.4,342000,BC,Female,UG,Kerala,0
+871,73.3,500000,OC,Male,PG,Tamil Nadu,0
+872,57.9,212000,BC,Male,UG,Tamil Nadu,0
+873,78.7,205000,SC,Male,UG,Karnataka,0
+874,70.8,145000,OC,Female,UG,Tamil Nadu,1
+875,47.3,157000,MBC,Male,UG,Tamil Nadu,0
+876,46.5,99000,ST,Female,UG,Tamil Nadu,0
+877,69.9,460000,OC,Female,UG,Tamil Nadu,0
+878,67.3,878000,OC,Female,UG,Kerala,0
+879,68.8,697000,MBC,Female,UG,Tamil Nadu,0
+880,69.7,112000,OC,Female,UG,Karnataka,0
+881,72.7,458000,MBC,Male,UG,Tamil Nadu,0
+882,81.4,696000,MBC,Female,UG,Karnataka,0
+883,56.7,225000,MBC,Male,UG,Kerala,0
+884,55.9,315000,BC,Female,UG,Karnataka,0
+885,56.9,89000,MBC,Male,UG,Tamil Nadu,0
+886,73.5,348000,MBC,Female,UG,Tamil Nadu,0
+887,84.9,157000,BC,Female,Diploma,Tamil Nadu,0
+888,64.8,334000,MBC,Male,PG,Tamil Nadu,0
+889,40.0,116000,SC,Female,UG,Tamil Nadu,1
+890,49.6,411000,MBC,Male,UG,Kerala,0
+891,60.0,548000,BC,Male,UG,Tamil Nadu,0
+892,63.3,185000,BC,Female,PG,Kerala,0
+893,65.1,150000,OC,Female,UG,Tamil Nadu,0
+894,70.5,81000,BC,Male,UG,Karnataka,1
+895,66.3,253000,OC,Female,UG,Tamil Nadu,0
+896,82.6,209000,ST,Female,UG,Tamil Nadu,0
+897,61.9,117000,BC,Female,UG,Kerala,1
+898,59.7,389000,SC,Female,PG,Kerala,0
+899,75.7,226000,OC,Male,Diploma,Kerala,0
+900,51.6,156000,BC,Male,UG,Karnataka,0
+901,74.7,213000,BC,Female,UG,Tamil Nadu,0
+902,71.2,564000,BC,Female,UG,Kerala,0
+903,68.2,426000,SC,Male,UG,Tamil Nadu,0
+904,89.1,274000,ST,Female,UG,Tamil Nadu,0
+905,62.5,430000,SC,Female,UG,Tamil Nadu,0
+906,94.7,148000,OC,Female,PG,Tamil Nadu,0
+907,67.3,302000,SC,Male,Diploma,Tamil Nadu,0
+908,54.7,324000,OC,Male,UG,Kerala,0
+909,70.8,224000,SC,Male,UG,Tamil Nadu,0
+910,57.1,385000,BC,Female,UG,Karnataka,0
+911,61.0,186000,BC,Female,UG,Tamil Nadu,0
+912,74.8,403000,OC,Male,UG,Tamil Nadu,0
+913,76.7,413000,OC,Female,UG,Tamil Nadu,0
+914,62.5,52000,BC,Female,UG,Tamil Nadu,0
+915,81.8,606000,SC,Male,PG,Tamil Nadu,0
+916,83.9,48000,SC,Male,UG,Tamil Nadu,0
+917,87.2,205000,ST,Female,UG,Tamil Nadu,0
+918,76.4,549000,OC,Female,UG,Tamil Nadu,0
+919,86.4,245000,MBC,Female,Diploma,Kerala,0
+920,47.4,123000,BC,Female,UG,Tamil Nadu,0
+921,66.2,154000,BC,Male,UG,Kerala,1
+922,59.6,549000,BC,Female,UG,Kerala,0
+923,71.4,94000,BC,Female,UG,Tamil Nadu,0
+924,63.1,584000,MBC,Male,Diploma,Tamil Nadu,1
+925,68.0,287000,OC,Male,UG,Tamil Nadu,1
+926,92.6,145000,BC,Female,Diploma,Tamil Nadu,0
+927,68.0,209000,MBC,Female,UG,Tamil Nadu,0
+928,75.0,161000,OC,Female,UG,Karnataka,1
+929,67.2,499000,ST,Male,UG,Tamil Nadu,0
+930,70.9,460000,BC,Male,UG,Tamil Nadu,0
+931,70.1,106000,SC,Female,UG,Tamil Nadu,0
+932,75.4,233000,MBC,Female,UG,Tamil Nadu,0
+933,84.0,177000,MBC,Female,UG,Tamil Nadu,0
+934,89.8,644000,MBC,Female,PG,Tamil Nadu,0
+935,73.7,132000,SC,Male,Diploma,Karnataka,0
+936,77.1,776000,MBC,Female,UG,Tamil Nadu,0
+937,56.2,291000,BC,Male,UG,Tamil Nadu,0
+938,68.9,148000,OC,Female,PG,Tamil Nadu,1
+939,81.3,198000,MBC,Male,UG,Tamil Nadu,0
+940,80.4,183000,OC,Female,PG,Karnataka,1
+941,72.5,138000,BC,Female,UG,Karnataka,1
+942,80.6,314000,OC,Female,PG,Karnataka,0
+943,75.9,142000,BC,Female,UG,Tamil Nadu,0
+944,84.4,80000,OC,Female,UG,Tamil Nadu,0
+945,73.5,236000,MBC,Female,UG,Kerala,1
+946,65.7,101000,SC,Male,UG,Tamil Nadu,0
+947,74.0,189000,SC,Male,PG,Tamil Nadu,0
+948,35.0,172000,BC,Female,Diploma,Tamil Nadu,0
+949,74.6,176000,BC,Female,UG,Tamil Nadu,0
+950,35.0,985000,MBC,Female,UG,Karnataka,0
+951,49.3,307000,BC,Female,UG,Tamil Nadu,0
+952,75.4,344000,MBC,Female,UG,Karnataka,0
+953,75.7,102000,BC,Female,UG,Tamil Nadu,0
+954,56.1,200000,ST,Female,PG,Tamil Nadu,0
+955,61.5,337000,OC,Female,PG,Tamil Nadu,0
+956,86.4,160000,SC,Male,UG,Tamil Nadu,1
+957,64.2,511000,MBC,Female,UG,Tamil Nadu,0
+958,96.9,144000,BC,Male,UG,Tamil Nadu,0
+959,70.0,250000,MBC,Female,UG,Tamil Nadu,1
+960,74.9,209000,OC,Female,UG,Karnataka,0
+961,89.4,327000,SC,Female,UG,Tamil Nadu,0
+962,71.6,202000,MBC,Male,UG,Tamil Nadu,1
+963,58.0,252000,OC,Female,UG,Tamil Nadu,0
+964,68.7,257000,OC,Male,PG,Kerala,0
+965,69.6,191000,SC,Female,UG,Tamil Nadu,0
+966,53.6,397000,BC,Male,UG,Tamil Nadu,0
+967,66.9,342000,SC,Male,UG,Tamil Nadu,0
+968,61.1,281000,SC,Female,PG,Tamil Nadu,0
+969,81.1,229000,MBC,Female,UG,Tamil Nadu,0
+970,70.4,478000,BC,Male,UG,Tamil Nadu,0
+971,66.6,257000,MBC,Male,UG,Karnataka,0
+972,68.7,247000,ST,Male,UG,Tamil Nadu,0
+973,72.7,316000,OC,Female,UG,Tamil Nadu,0
+974,77.4,821000,BC,Male,PG,Tamil Nadu,0
+975,58.0,133000,BC,Male,UG,Tamil Nadu,0
+976,57.5,471000,BC,Male,UG,Tamil Nadu,1
+977,83.3,95000,MBC,Male,UG,Tamil Nadu,0
+978,65.1,338000,BC,Male,PG,Tamil Nadu,0
+979,53.0,763000,MBC,Female,PG,Tamil Nadu,0
+980,75.3,398000,BC,Female,PG,Tamil Nadu,0
+981,75.6,329000,OC,Male,UG,Karnataka,1
+982,51.6,212000,BC,Female,PG,Tamil Nadu,0
+983,72.8,302000,SC,Female,UG,Tamil Nadu,0
+984,78.8,255000,MBC,Male,UG,Karnataka,0
+985,74.5,185000,BC,Female,UG,Kerala,0
+986,77.6,249000,SC,Female,PG,Tamil Nadu,0
+987,53.1,334000,OC,Female,UG,Kerala,1
+988,74.0,187000,BC,Male,UG,Tamil Nadu,0
+989,66.4,183000,BC,Male,UG,Tamil Nadu,0
+990,64.2,131000,ST,Male,UG,Kerala,0
+991,80.4,375000,MBC,Male,UG,Kerala,0
+992,87.8,411000,MBC,Female,UG,Tamil Nadu,0
+993,91.5,341000,OC,Female,PG,Tamil Nadu,0
+994,85.8,529000,OC,Female,UG,Tamil Nadu,0
+995,68.7,313000,MBC,Female,UG,Tamil Nadu,0
+996,74.2,375000,BC,Female,UG,Karnataka,1
+997,79.2,356000,SC,Male,UG,Tamil Nadu,0
+998,71.5,281000,SC,Male,Diploma,Tamil Nadu,1
+999,71.6,216000,BC,Male,UG,Tamil Nadu,0
+1000,79.9,1120000,MBC,Male,UG,Tamil Nadu,0

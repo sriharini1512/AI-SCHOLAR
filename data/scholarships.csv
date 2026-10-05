@@ -1,0 +1,16 @@
+scheme_id,name,provider,min_marks,max_income,category,gender,course,state,amount,deadline,description
+1,Post Matric Scholarship for BC/MBC,Tamil Nadu Government,50,200000,BC;MBC,All,UG;PG,Tamil Nadu,12000,2026-12-31,Financial assistance for BC and MBC students pursuing higher education in Tamil Nadu
+2,Central Sector Scholarship,Government of India,80,450000,All,All,UG,All,20000,2026-11-30,Merit based scholarship for top performing students in class 12 pursuing undergraduate courses
+3,Pragati Scholarship for Girls,AICTE,50,800000,All,Female,UG;Diploma,All,50000,2026-12-15,Scholarship for girl students in AICTE approved technical institutions
+4,Merit cum Means Scholarship,Minority Affairs,50,250000,Minority,All,UG;PG,All,30000,2026-11-15,Support for minority students pursuing professional and technical courses
+5,Institution Merit Award,College,75,500000,All,All,UG,Tamil Nadu,15000,2026-10-31,Award for academically strong students of the institution
+6,Post Matric Scholarship for SC/ST,Tamil Nadu Government,40,250000,SC;ST,All,UG;PG;Diploma,Tamil Nadu,18000,2026-12-20,Financial support for SC and ST students pursuing higher education in Tamil Nadu
+7,Merit Scholarship for Postgraduates,UGC,60,600000,All,All,PG,All,36000,2026-12-10,Merit based support for students pursuing postgraduate courses
+8,Minority Girls Scholarship,Minority Affairs,50,300000,Minority,Female,UG;PG,All,25000,2026-11-28,Scholarship for minority girl students pursuing higher education
+9,Diploma Merit Scholarship,State Technical Board,60,400000,All,All,Diploma,Tamil Nadu,10000,2026-12-05,Scholarship for meritorious diploma students in technical institutions
+10,First Graduate Support Scheme,Tamil Nadu Government,45,300000,All,All,UG,Tamil Nadu,15000,2026-12-12,Fee support for first generation graduates from low income families
+11,Kerala Higher Education Merit Award,Kerala Government,70,500000,All,All,UG;PG,Kerala,20000,2026-11-20,Merit award for students pursuing higher education in Kerala
+12,Karnataka Students Aid,Karnataka Government,55,350000,All,All,UG;PG;Diploma,Karnataka,14000,2026-12-18,Financial aid for students studying in Karnataka
+13,Top Class Education Scheme,Social Justice Ministry,75,800000,SC;ST,All,UG;PG,All,60000,2026-11-30,Full support for SC and ST students in top institutions
+14,Women in Technology Scholarship,Corporate Foundation,65,700000,All,Female,UG;PG,All,40000,2026-12-22,Scholarship for women pursuing engineering and technology courses
+15,General Merit Scholarship,College Trust,60,450000,All,All,UG;PG,Tamil Nadu,12000,2026-12-08,Merit scholarship for students of Tamil Nadu colleges
