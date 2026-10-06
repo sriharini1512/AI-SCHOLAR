@@ -39,6 +39,7 @@ button:hover{opacity:.88}
 .chip{font-size:12px;padding:4px 11px;border-radius:20px;background:rgba(122,167,255,.08);border:1px solid rgba(122,167,255,.25)}
 .chip.m{background:rgba(180,156,255,.08);border-color:rgba(180,156,255,.3)}
 .why{font-size:13px;color:#a3aed3;line-height:1.7}.why li{list-style:none}.why li:before{content:"\203A  ";color:var(--c)}
+.apply{display:inline-block;margin-top:12px;padding:9px 18px;border-radius:10px;font:600 13px Orbitron,Arial;letter-spacing:1px;text-decoration:none;color:#0b0f1a;background:linear-gradient(90deg,#7aa7ff,#b49cff)}.apply.alt{background:transparent;color:var(--c);border:1px solid rgba(122,167,255,.5)}.apply:hover{opacity:.85}
 .rank{font:600 12px Orbitron;color:var(--m);margin-bottom:4px}
 .empty{text-align:center;padding:30px;color:#e9a3bd}
 footer{text-align:center;margin-top:40px;color:#566086;font-size:12px}
@@ -106,7 +107,7 @@ function render(d){
    <div class="chips"><span class="chip">&#8377; ${r.amount.toLocaleString('en-IN')}</span>
     <span class="chip m">&#9201; ${r.days_left} days left (${esc(r.deadline)})</span>
     <span class="chip">AI selection chance ${r.ml}%</span></div>
-   <ul class="why">${r.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul></div></div>`).join('');
+   <ul class="why">${r.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul><a class="apply ${r.official?'':'alt'}" href="${esc(r.apply_url)}" target="_blank" rel="noopener">${r.official?'APPLY NOW &#8599;':'FIND APPLY PAGE &#8599;'}</a></div></div>`).join('');
  document.querySelectorAll('.meter').forEach(m=>{const t=+m.dataset.p;let v=0;
   const id=setInterval(()=>{v=Math.min(t,v+2);m.style.setProperty('--p',v);m.firstChild.textContent=v+'%';if(v>=t)clearInterval(id)},18)});
 }

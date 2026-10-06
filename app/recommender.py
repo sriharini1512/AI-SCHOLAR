@@ -1,5 +1,6 @@
 import os
 import datetime
+from urllib.parse import quote
 import numpy as np
 import pandas as pd
 import joblib
@@ -60,7 +61,11 @@ def recommend(st, interests="", n=5):
             reasons.append(f"Valid for students in {sc['state']}")
         if nlp_all[i] > 0.15:
             reasons.append("Matches your interests")
-        out.append({"name": sc["name"], "provider": sc["provider"],
+        link = sc["apply_url"] if "apply_url" in sc.index else ""
+        official = isinstance(link, str) and link.startswith("http")
+        if not official:
+            link = "https://www.google.com/search?q=" + quote(sc["name"] + " scholarship apply online")
+        out.append({"apply_url": link, "official": official, "name": sc["name"], "provider": sc["provider"],
                     "amount": int(sc["amount"]), "deadline": str(sc["deadline"]),
                     "days_left": int(days), "description": sc["description"],
                     "score": round(score * 100), "ml": round(float(ml[k]) * 100),
